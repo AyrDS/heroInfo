@@ -12,13 +12,13 @@ const LoginScreen = ({ history }) => {
         // history.push("/");
 
         /* const action = {
-            name: "ayrton",
+            name: "user",
         } */
         
         dispatch({
             type: types.login,
             payload: {
-                name: "Ayrton"
+                name: "User 1"
             }
         });
 
