@@ -23,7 +23,7 @@ export const Navbar = () => {
                 className="navbar-brand ms-3"
                 to="/"
             >
-                Asociaciones
+                {`<AyrDS/>`}
             </Link>
 
             <div className="navbar-collapse">
