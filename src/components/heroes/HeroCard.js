@@ -10,7 +10,7 @@ const HeroCard = ({ id, superhero, alter_ego, first_appearance, characters }) =>
                 <div className="row g-0" >
                     <div className="col-md-4" >
                         <img
-                            /* src={`./assets/heroes/${id}.jpg`} */
+                            /* src={`/../../assets/heroes/${id}.jpg`} */
                             src={heroesImages(`./${id}.jpg`).default}
                             className="img-fluid rounded-start"
                             alt={`${superhero}`}
